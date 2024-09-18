@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@dagger.io/dagger": "./sdk/index.ts",
+
+    "lodash": "npm:lodash@4.17.21"
+  }
+}
